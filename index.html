@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CuentaCalorias</title>
+    </head>
+
+    <body>
+        <form action="Calorias.php" method="post">
+            <p>Introduce tu peso: <input type="text" name="peso" ></p>
+            <p>Selecciona tu actividad fisica diaria:
+                <select name="actividadfisica">
+                    <option value="Sedentario">Sedentario</option>
+                    <option value="Moderado">Moderado/activo </option>
+                    <option value="Activo">Muy activo </option>
+                </select>
+            </p>
+            <p>Selecciona tu objetivo:
+                <select name="objetivo">
+                    <option value="Rebajar">Rebajar</option>
+                    <option value="Mantener">Mantener </option>
+                    <option value="Aumentar">Aumentar </option>
+                </select>
+            </p>
+            <p>Selecciona tu biotipo:
+                <select name="biotipo">
+                    <option value="Ectomorfo">Ectomorfo</option>
+                    <option value="Mesomorfo"> Mesomorfo</option>
+                    <option value="Endomorfo"> Endomorfo </option>
+                </select>
+            </p>
+            <button>Calcular</button>
+        </form>
+    </body>
+</html>
+
+

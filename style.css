@@ -1,0 +1,18 @@
+label{
+    display: inline-block;
+    width: 130px;
+    padding: 10px;
+}
+
+input{
+    width: 167px;
+}
+
+.opcion1{
+    margin-bottom: 15px;
+}
+.botones{
+    width: 100px;
+
+}
+
